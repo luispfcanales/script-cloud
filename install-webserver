@@ -1,4 +1,7 @@
 #! /bin/bash
-sudo apt install apache2 libapache2-mod-php -y
-git clone https://github.com/jcnavarro-vega/cloud-computing.git /var/www/html/task
+#sudo apt install apache2 libapache2-mod-php -y
+sudo git clone https://github.com/jcnavarro-vega/cloud-computing.git task
+sudo mv /var/www/html/index.html /var/www/html/index2.html
+sudo cp task/1.quotes-generator/index.php /var/www/html/
+sudo cp task/1.quotes-generator/quotex.txt /var/www/html/
 

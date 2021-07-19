@@ -1,0 +1,2 @@
+task/1.quotes-generator/index.php
+task/1.quotes-generator/quotes.txt
