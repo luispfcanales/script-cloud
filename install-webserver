@@ -1,0 +1,4 @@
+#! /bin/bash
+sudo apt install apache2 libapache2-mod-php -y
+git clone https://github.com/jcnavarro-vega/cloud-computing.git /var/www/html/task
+
