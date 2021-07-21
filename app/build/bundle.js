@@ -1149,14 +1149,14 @@ var app = (function () {
     			h3.textContent = `${/*version*/ ctx[1]}`;
     			attr_dev(h1, "class", "svelte-1m9vzq2");
     			add_location(h1, file$2, 6, 1, 159);
-    			if (img.src !== (img_src_value = "/gopherConclusion-min.png")) attr_dev(img, "src", img_src_value);
+    			if (img.src !== (img_src_value = "./gopherConclusion-min.png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "wellcome");
     			attr_dev(img, "class", "svelte-1m9vzq2");
     			add_location(img, file$2, 8, 2, 209);
     			attr_dev(div0, "class", "content-image svelte-1m9vzq2");
     			add_location(div0, file$2, 7, 1, 179);
     			attr_dev(h3, "class", "svelte-1m9vzq2");
-    			add_location(h3, file$2, 10, 1, 272);
+    			add_location(h3, file$2, 10, 1, 273);
     			attr_dev(div1, "class", "container svelte-1m9vzq2");
     			add_location(div1, file$2, 5, 0, 134);
     		},
