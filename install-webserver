@@ -1,6 +1,16 @@
 #! /bin/bash
+sudo apt update && sudo apt upgrade -y
 sudo apt install apache2 libapache2-mod-php -y
-sudo git clone https://github.com/jcnavarro-vega/cloud-computing.git task
-sudo mv /var/www/html/index.html /var/www/html/index2.html
-sudo cp task/1.quotes-generator/index.php /var/www/html/
-sudo cp task/1.quotes-generator/quotes.txt /var/www/html/
+cp -rf app /var/www/html
+echo " #"
+echo " # ██╗     ██╗   ██╗██╗███████╗██████╗ ███████╗    ██████╗ ███████╗██╗   ██╗"
+echo " # ██║     ██║   ██║██║██╔════╝██╔══██╗██╔════╝    ██╔══██╗██╔════╝██║   ██║"
+echo " # ██║     ██║   ██║██║███████╗██████╔╝█████╗      ██║  ██║█████╗  ██║   ██║"
+echo " # ██║     ██║   ██║██║╚════██║██╔═══╝ ██╔══╝      ██║  ██║██╔══╝  ╚██╗ ██╔╝"
+echo " # ███████╗╚██████╔╝██║███████║██║     ██║         ██████╔╝███████╗ ╚████╔╝"
+echo " # ╚══════╝ ╚═════╝ ╚═╝╚══════╝╚═╝     ╚═╝         ╚═════╝ ╚══════╝  ╚═══╝"
+echo " # Email: luispfcanales@gmail.com"
+echo " # Twitter: @luispfcanales"
+echo " # -------------------------------------------------------------------------"
+echo " # INGRESE SU IP/app EXAMPLE: (192.168.0.1/app)"
+echo " # -------------------------------------------------------------------------"
