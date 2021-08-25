@@ -1,0 +1,17 @@
+#! /bin/bash
+sudo apt update && sudo apt upgrade -y
+sudo apt install postgresql -y
+sudo apt install golang -y
+sudo git clone https://github.com/luispfcanales/go-ec2.git
+cd ./go-ec2
+go mod tidy
+go build -o server
+echo " #"
+echo " # ██╗     ██╗   ██╗██╗███████╗██████╗ ███████╗    ██████╗ ███████╗██╗   ██╗"
+echo " # ██║     ██║   ██║██║██╔════╝██╔══██╗██╔════╝    ██╔══██╗██╔════╝██║   ██║"
+echo " # ██║     ██║   ██║██║███████╗██████╔╝█████╗      ██║  ██║█████╗  ██║   ██║"
+echo " # ██║     ██║   ██║██║╚════██║██╔═══╝ ██╔══╝      ██║  ██║██╔══╝  ╚██╗ ██╔╝"
+echo " # ███████╗╚██████╔╝██║███████║██║     ██║         ██████╔╝███████╗ ╚████╔╝"
+echo " # ╚══════╝ ╚═════╝ ╚═╝╚══════╝╚═╝     ╚═╝         ╚═════╝ ╚══════╝  ╚═══╝"
+echo " # Email: luispfcanales@gmail.com"
+echo " # Twitter: @luispfcanales"
